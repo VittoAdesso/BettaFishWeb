@@ -5,6 +5,5 @@ export interface Ibeta{
 }
 
 export interface Igallery{
-    // title: string; 
     imgGallery: string[];
 }
