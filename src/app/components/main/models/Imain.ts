@@ -9,6 +9,6 @@ export interface Itypes {
 }
 
 export interface Ihabitat{
-    title: string; 
-    text: string;
+    habitat: Itypes[];
+    img: string[]; 
 }
