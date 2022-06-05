@@ -16,7 +16,7 @@ export class HeaderComponent implements OnInit {
           title: 'Pez beta',
           img: 'https://i.pinimg.com/originals/77/68/49/776849067fa4646fd1ea31c8810fd4fd.png'
         }, 
-        links: ["Orígen", "Hogar", "Características", "Imágenes"]
+        links: ["Orígen", "Hogar", "Características", "Dato Curioso 👀", "Imágenes"]
     }
   }
 
