@@ -1,10 +1,15 @@
 <nav>
     <div>
-        <img src="{{headerContent.logo.img}}" alt="">
+        <img src="{{ headerContent.logo.img }}" alt="">
     </div>
-        <ul *ngFor="let beta of headerContent.links">
-            <li>{{beta}}</li>
-        </ul>
+
+        <a [routerLink]='[""]'> HOME </a>
+        <a [routerLink]='["origin"]'>  Orígen </a>
+        <a [routerLink]='["characters"]'> Características </a>
+        <a [routerLink]='["home"]'> Hogar </a>
+        <a [routerLink]='["curioso"]'> Dato Curioso 👀 </a>
+        <a [routerLink]='["gallery"]'>Imágenes </a>
+
 </nav>
 
 <app-footer></app-footer>
