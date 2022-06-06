@@ -7,18 +7,13 @@ import { HeroComponent } from './components/hero/hero.component';
 import { BettaCharacteristicsComponent } from './components/main/betta-characteristics/betta-characteristics.component';
 import { BettaHabitatComponent } from './components/main/betta-habitat/betta-habitat.component';
 
-
-
-
 const routes: Routes = [
   { path: '', component: HeaderComponent },
   { path: 'origin', component: HeroComponent },
   { path: 'characters', component: BettaCharacteristicsComponent },
   { path: 'home', component: BettaHabitatComponent },
   { path: 'curioso', component: ExtrasComponent },
-
   { path: 'gallery', component: GalleryComponent },
-
 
 ];
 
@@ -26,4 +21,5 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
+
 export class AppRoutingModule { }
