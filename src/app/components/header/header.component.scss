@@ -1,21 +1,23 @@
 nav {
-    display: flex;
-    justify-content: space-evenly;
+display: flex;
+justify-content: space-evenly;
+margin-top:5%;
 
     div {
-        width: 300px; 
-        height: auto; 
+    width: 300px; 
+    height: auto; 
 
         img{
-            width: 100%; 
+        width: 100%; 
         }
     }
 
-    ul{
-        list-style: none;     
+    a{
         display: flex;
-        justify-content: space-around;
-        margin-top: 5%;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        text-decoration: none;
     }
 
 }
