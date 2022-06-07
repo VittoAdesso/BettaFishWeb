@@ -3,6 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 
+import {AccordionModule} from 'primeng/accordion';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FieldsetModule } from 'primeng/fieldset';
+import {TabViewModule} from 'primeng/tabview';
+// import {ImageModule} from 'primeng/image';
+// import {CarouselModule} from 'primeng/carousel';
+// import {GalleriaModule} from 'primeng/galleria';
+import {CardModule} from 'primeng/card';
+
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HeroComponent } from './components/hero/hero.component';
@@ -24,11 +33,19 @@ import { ExtrasComponent } from './components/extras/extras.component';
     BettaCharacteristicsComponent,
     BettaHabitatComponent,
     FooterComponent,
-    ExtrasComponent,
+    ExtrasComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    BrowserAnimationsModule,
+    AppRoutingModule, 
+    AccordionModule,
+    FieldsetModule,
+    TabViewModule,
+    // ImageModule
+    // CarouselModule
+    // GalleriaModule
+    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
