@@ -2,7 +2,7 @@
 
 
 <ng-container *ngFor="let extrasBetta of extraContent.importantInfo">
-    <p-fieldset legend="{{extrasBetta.title}}">
+    <p-fieldset legend="{{extrasBetta.title}}" [style]="{'margin-bottom': '2em','margin-top': '2em'}">
         <p>{{extrasBetta.text}}</p>
     </p-fieldset>
 </ng-container>

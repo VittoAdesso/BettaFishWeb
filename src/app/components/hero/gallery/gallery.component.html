@@ -1,14 +1,12 @@
 
 <app-header></app-header>
 
-
-<div class="container-gallery">
-    <p-card *ngFor="let pictures of galleryContent.imgGallery" header="">
-    <img  src="{{pictures}}" alt="">
-    </p-card>
+<div>
+    <div *ngFor="let pictures of galleryContent.imgGallery" header="">
+        <p-image  src="{{pictures}}" [style]="{'margin-bottom': '2em','margin-top': '2em'}" [preview]="true"> 
+        </p-image>
+    </div>
 </div>
-    
+
 <app-footer></app-footer>
 
-
-        

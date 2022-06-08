@@ -1,19 +1,8 @@
-.container-gallery{
-    display: wrap;
-    justify-content: wrapped;
-    align-items: center;
-
-}
-
-:host ::ng-deep .p-card {
-    
-    background: #212121;
-    width: 25rem;
-    margin-bottom:2em;
-    img{
+div{
+    display:flex; 
+    flex-wrap: wrap;
+    p-image{
         width: 100%;
-        height: auto;
+        height: auto
     }
-
-    
 }

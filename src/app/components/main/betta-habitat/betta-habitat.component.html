@@ -1,16 +1,16 @@
 <app-header></app-header>
 
+<div >
 
 
-<p-tabView *ngFor="let pecera of habitatContent.habitat" >
-   
-  
+<p-tabView *ngFor="let pecera of habitatContent.habitat" [style]="{'margin-bottom': '2em','margin-top': '2em'}">
     <p-tabPanel header="{{pecera.title}}">
         {{pecera.text}}
     </p-tabPanel>
-          
-
 </p-tabView>
+
+</div>
+
 
 <app-footer></app-footer>
 

@@ -1,6 +1,6 @@
 <app-header></app-header>
 
-<p-accordion *ngFor="let characters of bettaCharacteristics.box">
+<p-accordion *ngFor="let characters of bettaCharacteristics.box" [style]="{'margin-bottom': '2em','margin-top': '2em'}">
     <p-accordionTab header="{{characters.title}}">
         <p>{{characters.text}}</p>
     </p-accordionTab>
