@@ -9,6 +9,8 @@ import { FieldsetModule } from 'primeng/fieldset';
 import {TabViewModule} from 'primeng/tabview';
 import {ImageModule} from 'primeng/image';
 import {CardModule} from 'primeng/card';
+import {PanelModule} from 'primeng/panel';
+
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -41,7 +43,9 @@ import { ExtrasComponent } from './components/extras/extras.component';
     FieldsetModule,
     TabViewModule,
     ImageModule,
-    CardModule
+    CardModule,
+    PanelModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
