@@ -1,12 +1,14 @@
 
 <app-header></app-header>
 
-<div class="gallery-container">
-    <div *ngFor="let galleryBetta of galleryContent.imgGallery">
-        <div class="gallery-images">
-            <img src="{{ galleryBetta }}" alt=" someImgs">
-        </div>
-    </div>
-</div>
 
+<div class="container-gallery">
+    <p-card *ngFor="let pictures of galleryContent.imgGallery" header="">
+    <img  src="{{pictures}}" alt="">
+    </p-card>
+</div>
+    
 <app-footer></app-footer>
+
+
+        

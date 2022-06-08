@@ -1,8 +1,13 @@
 <app-header></app-header>
 
-<div *ngFor="let extrasBetta of extraContent.importantInfo">
-    <h2>{{extrasBetta.title}}</h2>
-    <p>{{extrasBetta.text}}</p>
-</div>
+
+<ng-container *ngFor="let extrasBetta of extraContent.importantInfo">
+    <p-fieldset legend="{{extrasBetta.title}}">
+        <p>{{extrasBetta.text}}</p>
+    </p-fieldset>
+</ng-container>
+
+
+
 
 <app-footer></app-footer>

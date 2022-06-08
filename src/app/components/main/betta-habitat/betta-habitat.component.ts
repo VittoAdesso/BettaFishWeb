@@ -8,6 +8,8 @@ import { Ihabitat } from '../models/Imain';
 })
 export class BettaHabitatComponent implements OnInit {
 public habitatContent : Ihabitat; 
+  // public items: any; 
+
   constructor() {
     this.habitatContent = {
       habitat : [

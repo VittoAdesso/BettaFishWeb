@@ -1,19 +1,19 @@
-.gallery-container {
+.container-gallery{
+    display: wrap;
+    justify-content: wrapped;
+    align-items: center;
 
-    display: flex;
-    flex-wrap: wrap;
-    // justify-content: space-between;
-    // align-items: center;
-    div{
-        max-width: 500px;
-        margin: 20px;
+}
 
-        .gallery-images{
-            max-width: 400px;
-            img{
-                width: 100%; 
-            }
-        }
+:host ::ng-deep .p-card {
+    
+    background: #212121;
+    width: 25rem;
+    margin-bottom:2em;
+    img{
+        width: 100%;
+        height: auto;
     }
 
+    
 }
