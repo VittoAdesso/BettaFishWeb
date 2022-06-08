@@ -7,9 +7,7 @@ import {AccordionModule} from 'primeng/accordion';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FieldsetModule } from 'primeng/fieldset';
 import {TabViewModule} from 'primeng/tabview';
-// import {ImageModule} from 'primeng/image';
-// import {CarouselModule} from 'primeng/carousel';
-// import {GalleriaModule} from 'primeng/galleria';
+import {ImageModule} from 'primeng/image';
 import {CardModule} from 'primeng/card';
 
 import { AppComponent } from './app.component';
@@ -42,9 +40,7 @@ import { ExtrasComponent } from './components/extras/extras.component';
     AccordionModule,
     FieldsetModule,
     TabViewModule,
-    // ImageModule
-    // CarouselModule
-    // GalleriaModule
+    ImageModule,
     CardModule
   ],
   providers: [],
