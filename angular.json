@@ -111,5 +111,8 @@
       }
     }
   },
-  "defaultProject": "practice-app"
+  "defaultProject": "practice-app",
+  "cli": {
+    "analytics": "cb8c04b4-4723-4e2e-96b4-fd22072780d5"
+  }
 }
