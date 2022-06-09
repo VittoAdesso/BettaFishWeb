@@ -1,32 +1,13 @@
 <app-header></app-header>
 
 <div>
-    
     <p-panel header="{{heroContent.title}}" [toggleable]="true">
     {{heroContent.history}}
 </p-panel>
 
+<div class="img-fish" *ngFor="let bettaImgPpal of heroContent.img">
+    <img src="{{bettaImgPpal}}" alt="pez">
+</div> 
 
 
-<!-- 
-<video width="320" height="240" controls>
-    <source src="https://www.bing.com/videos/search?q=pexz+betta+en+3d+video&&view=detail&mid=AEB22C73A8FE68483382AEB22C73A8FE68483382&&FORM=VRDGAR&ru=%2Fvideos%2Fsearch%3Fq%3Dpexz%2Bbetta%2Ben%2B3d%2Bvideo%26FORM%3DHDRSC3" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-<div>  -->
-
-
-
-
-
-
-
-
-
-
-    <div class="img-fish" *ngFor="let bettaImgPpal of heroContent.img">
-        <img src="{{bettaImgPpal}}" alt="pez">
-    </div> 
-
-
-    <app-footer></app-footer>
+<app-footer></app-footer>
