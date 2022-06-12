@@ -1,6 +1,20 @@
 # Betta Fish APP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4
+
+Is complete responsive for mobiles & tablets.
+I don't used external Apis. 
+
+** If you want to clone it, `Remember` to `npm i` before clone. 
+
+## Used for styles
+
+https://www.primefaces.org/primeng/
+https://sass-lang.com/
+
+# Deployed into vercel 
+
+https://betta-fish-web.vercel.app/
 
 ## Development server
 
@@ -26,6 +40,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## Used for styles
 
-https://www.primefaces.org/primeng/
